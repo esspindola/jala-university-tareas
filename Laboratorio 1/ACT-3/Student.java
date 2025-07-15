@@ -13,6 +13,13 @@ class Student {
     private List<String> courses;
 
     /**
+     * Promueve la calificación del estudiante en 1.
+     */
+    public void promoteGrade() {
+        this.grade++;
+    }
+
+    /**
      * Constructor para crear un nuevo estudiante.
      *
      * @param name Nombre del estudiante.
